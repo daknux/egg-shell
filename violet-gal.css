@@ -375,6 +375,7 @@ main {
     display: none;
     flex-direction: column;
     animation: slideInUp 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    text-align: center;
 }
 
 @keyframes slideInUp {
@@ -393,6 +394,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-align: left;
     box-shadow: var(--shadow-lg);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
