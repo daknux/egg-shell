@@ -77,13 +77,15 @@ body {
     padding: 0;
     background: linear-gradient(135deg, #0f0b1a 0%, #1a1233 25%, #2d1f5e 50%, #1a1233 75%, #0f0b1a 100%);
     background-attachment: fixed;
-    background-size: 400% 400%;
+    background-size: 2000px 2000px;
     animation: gradientShift 20s ease infinite;
     color: var(--text);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-image: url("https://cdn.jsdelivr.net/gh/daknux/assets@main/galaxy-bg.png");
+    background-repeat: repeat;
 }
 
 @keyframes gradientShift {
