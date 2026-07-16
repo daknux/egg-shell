@@ -572,6 +572,8 @@ settings.addEventListener('click', () => {
     <button id="settings-button" onclick="darkMode()">Toggle Dark Mode</button>
     <br><br>
     <button id="settings-button" onclick="tabCloak()">Tab Cloak</button>
+    <br><br>
+    <button id="settings-button" onclick="randomZone()">Random Game</button>
     <br>
     `;
     popupBody.contentEditable = false;
