@@ -662,3 +662,22 @@ XMLHttpRequest.prototype.open = function (method, url) {
 HTMLCanvasElement.prototype.toDataURL = function (...args) {
     return "";
 };
+
+function randomZone() {
+    if (!zones || zones.length === 0) return alert("No zones available");
+
+    const randomIndex = Math.floor(Math.random() * zones.length);
+    const selectedZone = zones[randomIndex];
+
+    openZone(selectedZone);
+}
+
+// ---------------------------
+// 3. Button Binding
+// ---------------------------
+document.addEventListener("DOMContentLoaded", () => {
+    const randomBtn = document.getElementById("randomZoneBtn");
+    if (randomBtn) { // <-- Verification
+        randomBtn.addEventListener("click", randomZone);
+    }
+});
