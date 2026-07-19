@@ -584,8 +584,11 @@ function showContact() {
     document.getElementById('popupTitle').textContent = "Contact";
     const popupBody = document.getElementById('popupBody');
     popupBody.innerHTML = `
+    <h2>OFFICIAL GN MATH CONTACTS</h2>
     <p>Discord: https://discord.gg/NAFw4ykZ7n</p>
-    <p>Email: gn.math.business@gmail.com</p>`;
+    <p>Email: gn.math.business@gmail.com</p>
+    <h2>DAKNUX CONTACTS</h2>
+    <p>Discord: https://discord.gg/b37fJ2WxKx<p> `;
     popupBody.contentEditable = false;
     document.getElementById('popupOverlay').style.display = "flex";
 }
