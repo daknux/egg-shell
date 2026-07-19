@@ -597,7 +597,7 @@ function loadPrivacy() {
         <div style="max-height: 60vh; overflow-y: auto;">
             <h2>PRIVACY POLICY</h2>
             <p>Last updated June 21st, 2026</p>
-            <p>This Privacy Notice for gn-math b sides ("we," "us," or "our"), describes how and why we might access, collect, store, use, and/or share ("process") your personal information when you use our services ("Services"), including when you:</p>
+            <p>This Privacy Notice for DAKNUX ("we," "us," or "our"), describes how and why we might access, collect, store, use, and/or share ("process") your personal information when you use our services ("Services"), including when you:</p>
             <ul>
                 <li>Visit our website at <a href="https://daknux.github.io">https://daknux.github.io</a>, or any website of ours that links to this Privacy Notice</li>
                 <li>Engage with us in other related ways, including any sales, marketing, or events</li>
@@ -624,7 +624,7 @@ function loadPrivacy() {
             <p><strong>How do you exercise your rights?</strong> The easiest way to exercise your rights is by submitting a data subject access request, or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.</p>
 
             <h2>SO BASICALLY, IT'S LIKE ANY OTHER PRIVACY POLICY WHAT DO YOU EXPECT</h2>
-            <p>If you are on this site and somehow reading all that, congrats because you wasted time and I don't even do anything about what data you send to me
+            <p>If you are on this site and somehow reading all that, congrats because you wasted time and I don't even do anything about what data you send to me</p>
         </div>
     `;
     popupBody.contentEditable = false;
