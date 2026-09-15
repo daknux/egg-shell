@@ -61,7 +61,7 @@ function saveSourceSettings() {
     coverURL = coversVal;
     htmlURL = htmlVal;
     localStorage.setItem('daknuxSourceSettings', JSON.stringify({ zonesURLs: zonesurls, coverURL, htmlURL }));
-    alert("Settings saved!");
+    alert("Settings saved! Make sure to refresh the page for some magic.");
     listZones();
 }
 
